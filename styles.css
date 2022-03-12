@@ -80,16 +80,13 @@ button {
 }
 
 
-@media screen and (min-width:400px) {
-
-    body {
-    }
+@media (min-width:550px) {
 
     .container {
         width: 80%;
         margin: 3rem;
         display: flex;
-        align-items: stretch;
+        align-items: center;
         justify-content: center;
         flex-direction: row;
         max-width: 600px;
