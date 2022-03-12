@@ -17,12 +17,14 @@ body {
 .container {
     width: 80%;
     margin: 4rem;
+    padding-top: 8rem;
     border-radius: 8px;
     font-family: 'Lexend Deca';
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .innercard {
@@ -80,7 +82,7 @@ button {
 }
 
 
-@media (min-width:550px) {
+@media (min-width:640px) {
 
     .container {
         width: 80%;
