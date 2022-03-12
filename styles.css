@@ -87,21 +87,25 @@ button {
         align-items: stretch;
         justify-content: center;
         flex-direction: row;
-        max-width: 600px;
+        flex-basis:0;
+        flex-grow: 1;
+        min-width: 0;
+        max-width: 700px;
+    }
+
+    .innercard {
+        min-width: 0;
     }
     .sedans {
-        width: 33.3%;
         border-radius: 8px 0 0 8px;
 
     }
 
     .suvs {
-        width: 33.3%;
         border: none;
     }
 
     .luxury{
-        width: 33.3%;
         border-radius: 0 8px 8px 0;
     }
 }
