@@ -7,7 +7,6 @@
 }
 
 body {
-    height: 100vh;
     background-color: hsl(0, 0%, 95%);
     display: flex;
     align-items: center;
@@ -65,6 +64,12 @@ button {
     font-size: 0.7rem;
 }
 
+
+button:hover {
+     background-color: transparent;
+     color: white;
+     border: 1px solid white;
+}
 .orangebtn {
     color:hsl(31, 77%, 52%);
 }
@@ -82,7 +87,7 @@ button {
 
     .container {
         width: 80%;
-        margin: 3rem;
+        margin: 10rem 3rem 3rem 3rem ;
         display: flex;
         align-items: stretch;
         justify-content: center;
@@ -107,5 +112,10 @@ button {
 
     .luxury{
         border-radius: 0 8px 8px 0;
+    }
+
+    .bluebtn , .orangebtn , .greenbtn{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 }
